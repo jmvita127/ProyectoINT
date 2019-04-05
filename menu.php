@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link rel="stylesheet" href="estilo/estilo.css">
 
-    <title></title>
+    <title>Negocio Informatico</title>
   </head>
   <body>
 
