@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/estiloform.css">
+
 
     <title></title>
   </head>

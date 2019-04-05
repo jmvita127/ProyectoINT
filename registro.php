@@ -4,47 +4,45 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo/estiloform.css">
     <link rel="stylesheet" href="estilo/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Negocio Informatico</title>
   </head>
   <body>
 
     <header class="header">
-
       <?php
       //agrego el menu con toda su logica
         include('menu.php');
       ?>
-
-
     </header>
 
+    <div class="contenedor">
+      <form class="formulariogrande" action="index.php" method="post">
+        <div class="form-header">
+          <h1 class "form-title">C<span>ontacto</span> </h1>
+        </div>
+          <label class="form-label" for="nombre">Nombre:</label>
+          <input class="form-input" id="nombre" type="text" name="nombre-formulario" placeholder="Ingrese su Nombre...">
 
-    <form class="register"  method="GET">
-      <h4>CUENTA</h4>
-      <label for="email">Email Personal</label>
-      <input type="text" name="Email" id="email" value="<?php echo $_GET['Email']; ?>">
-      <span style="color:red;font-size:20px;"><?php echo $erroremail; ?></span><br>
+          <label class="form-label" for="apellido">Apellido:</label>
+          <input class="form-input" id="apellido" type="text" name="apellido-formulario" placeholder="Ingrese su Apellido...">
 
-      <label for="name">Nombre Completo</label>
-      <input type="text" name="Nombre" id="name" value="<?php echo $_GET['Nombre'];?>">
-      <span style="color:red;font-size:20px;"><?php echo $errornombre; ?></span><br>
+          <label class="form-label" for="contrasenia">Contrasenia:</label>
+          <input class="form-input" id="contrasenia" type="text" name="contrasenia-formulario" placeholder="Ingrese su Contrasenia...">
 
-      <label for="contrasenia">Contrasenia</label>
-      <input type="password" name="contrasenia" value="">
-      <hr>
-      <label for="age">Edad</label>
-      <input type="number" name="Edad" id="age" value="<?php $_GET['Edad']; ?>">
-      <span style="color:red;font-size:20px;"><?php echo $erroredad; ?></span><br>
+          <label class="form-label" for="Nacionalidad">Nacionalidad:</label>
+          <input class="form-input" id="Nacionalidad" type="text" name="Nacionalidad-formulario" placeholder="Ingrese su Nacionalidad...">
+          <br>
+          <input type="submit" class="btn-submit" name="" value="Registrarse">
+      </form>
+      <br>
+    </div>
 
-      <label for="gen">Genero</label>
-      <input type="text" name="Genero" id="gen"><br>
 
-      <label for="nation">Nacionalidad</label>
-      <input type="text" name="Nacionalidad" id="nation"><br>
 
-      <input type="submit" name="Validar">
-    </form>
 
     <?php
       include('footer.php');
