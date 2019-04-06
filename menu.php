@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="estilo/estiloform.css">
 
 
-    <title></title>
+    <title>Negocio Informatico</title>
   </head>
   <body>
 
