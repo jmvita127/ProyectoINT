@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link rel="stylesheet" href="estilo/estilo.css">
     <link rel="stylesheet" href="estilo/estiloform.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
     <title>Negocio Informatico</title>

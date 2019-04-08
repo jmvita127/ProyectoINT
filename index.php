@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
     <link rel="stylesheet" href="estilo/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Negocio Informatico</title>
   </head>
   <body>
@@ -41,43 +44,48 @@
           </a>
         </div>
 
+
+        <div class="">
+
+        </div>
+
         <div class="barra">
-          <div class="row">
-            <div class="col-12 col-lg-1" id="relativo">
+          <div class="row-barra">
+            <div class="col-12 col-sm-2 col-md-1" id="relativo">
               <a href="#" id="enlace"></a>
               <img class="creditcard" src="imagenes/creditcard.png" alt="">
             </div>
-            <div class="col-12 col-lg-2" id="relativo">
+            <div class="col-12 col-sm-4 col-md-2" id="relativo">
               <a href="#" id="enlace"></a>
               <p class="texto1">¡CUOTAS SIN INTERÉS!</p>
               <p class="texto2">En productos seleccionados</p>
             </div>
 
-            <div class="col-12 col-lg-1" id="relativo">
+            <div class="col-12 col-sm-2 col-md-1" id="relativo">
               <a href="#" id="enlace"></a>
               <img class="delivery" src="imagenes/delivery.png" alt="">
             </div>
-            <div class="col-12 col-lg-2" id="relativo">
+            <div class="col-12 col-sm-4 col-md-2" id="relativo">
               <a href="#" id="enlace"></a>
               <p class="texto1">ENVIOS A TODO EL PAIS</p>
               <p class="texto2">¡Rápido,sin vueltas!</p>
             </div>
 
-            <div class=" col-12 col-lg-1" id="relativo">
+            <div class="col-12 col-sm-2 col-md-1" id="relativo">
               <a href="#" id="enlace"></a>
               <img class="location" src="imagenes/location.png" alt="">
             </div>
-            <div class="col-12 col-lg-2" id="relativo">
+            <div class="col-12 col-sm-4 col-md-2" id="relativo">
               <a href="#" id="enlace"></a>
               <p class="texto1">¡RETIRA GRATIS!</p>
               <p class="texto2">¿Donde estamos?</p>
             </div>
 
-            <div class="col-12 col-lg-1" id="relativo">
+            <div class="col-12 col-sm-2 col-md-1" id="relativo">
               <a href="#" id="enlace"></a>
               <img class="ok" src="imagenes/ok.png" alt="">
             </div>
-            <div class="col-12 col-lg-2" id="relativo">
+            <div class="col-12 col-sm-4 col-md-2" id="relativo">
               <a href="#" id="enlace"></a>
               <p class="texto1">COMPRA 100% SEGURA</p>
               <p class="texto2">Garantias Oficiales</p>
@@ -93,6 +101,7 @@
       <section class="caja1">
 
         <article class="contenedor0">
+
           <h3>OFERTAS SEMANALES IMPERDIBLES!</h3>
 
         </article>
@@ -142,7 +151,7 @@
           <img class="imagen6" src="imagenes/promo6.jpg" alt="">
           <a href="" id="enlace"></a>
           <p class="texto3">Placa De Video Asus Phoenix Geforce Gtx 1050 2gb</p>
-          <p class="texto4"><img class="carrito2" src="imagenes/carrito.png" alt=""> $1590</p>
+          <p class="texto4"><img class="carrito2" src="imagenes/carrito.png" alt=""> $7590</p>
 
         </article>
 
