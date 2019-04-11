@@ -36,7 +36,7 @@
             </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link"  href="#" role="button" aria-haspopup="true" aria-expanded="false">¿QUIENES SOMOS?</a>
+          <a class="nav-link"  href="preguntas.php" role="button" aria-haspopup="true" aria-expanded="false">¿QUIENES SOMOS?</a>
         </li>
 
             <form class="form-inline">
