@@ -54,9 +54,6 @@ footer {
   text-align: right;
 }
 
-#medioPago {
-  width:100%;
-}
 
 .registro {
   border: solid 2px;
@@ -194,6 +191,7 @@ border-radius: 100%;
 
 .contenedor0 {
  width:100%;
+
 }
 
 
@@ -366,7 +364,7 @@ h3:hover {
   /*estilo contenedor promociones*/
 
   h3 {
-    font-size: 3em;
+    font-size: 2em;
   }
 
   .contenedor1 {

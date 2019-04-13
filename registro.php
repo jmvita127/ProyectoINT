@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="estilo/estiloform.css">
     <link rel="stylesheet" href="estilo/estilo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/logo.jpg"/>
 
-    <title>Negocio Informatico</title>
+    <title>Negocios Informático</title>
   </head>
   <body>
 

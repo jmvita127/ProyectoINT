@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Negocio Informatico</title>
     <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="shortcut icon" href="imagenes/logo.jpg"/>
   </head>
   <body>
 

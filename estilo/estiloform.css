@@ -236,3 +236,44 @@ color: orange;
 color: #F29718;
 background-color: rgba(77,86,86,.7);
 }
+
+/* EFECTOS NAVBAR */
+
+h1 {
+  font-size: 5em;
+  font-family: 'Orbitron', sans-serif;
+  color:burlywood;
+  width:40%;
+  text-shadow: 0 0 30px #fff;
+
+}
+
+h1:hover {
+
+}
+
+
+nav li a{
+  color: orange;
+  display: block;
+  padding: 0 2.5em;
+  transition: 0.4s;
+}
+
+nav li a:hover {
+
+  background-color: #717d7e;
+
+}
+
+
+.dropdown-menu {
+  background-color: #343a40;
+  margin:0:
+  padding:0;
+}
+
+.dropdown-menu a:hover {
+  background-color: #717d7e;
+  color:#343a40;
+}

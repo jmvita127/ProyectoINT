@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="estilo/estilo.css">
     <link rel="stylesheet" href="estilo/estiloform.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="imagenes/logo.jpg"/>
 
 
-    <title>Negocio Informatico</title>
+    <title>Negocios Informático</title>
   </head>
   <body>
 
@@ -16,7 +17,7 @@
 
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a><img src="imagenes/logo.jpg" alt="logo" witdh="100" height="110"></a>
+    <h1>NISA <a><img src="imagenes/logo.jpg" alt="logo" witdh="100" height="110"></a></h1>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,7 +27,7 @@
             <a class="nav-link" href="index.php" style="color:orange;">HOME</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:orange;">COMPONENTES</a>
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:orange;">PRODUCTOS</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#" style="color:orange;">PC</a>
               <a class="dropdown-item" href="#" style="color:orange;">CONSOLAS</a>
