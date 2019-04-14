@@ -29,8 +29,8 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:orange;">PRODUCTOS</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#" style="color:orange;">PC</a>
-              <a class="dropdown-item" href="#" style="color:orange;">CONSOLAS</a>
+              <!-- <a class="dropdown-item" href="#" style="color:orange;">PC</a> -->
+              <a class="dropdown-item" href="consolas.php" style="color:orange;">CONSOLAS</a>
 
               </div>
           </li>

@@ -16,7 +16,7 @@
   list-style-type: none;
   font-family: 'Orbitron', sans-serif;
   font-weight: bold;
-  
+
 }
 
 .header img{
@@ -318,8 +318,142 @@ h3:hover {
   padding-right: 10%;
 }
 
+/* ESTILO PAGINA CONSOLAS */
 
-  @media (max-width:580px) {
+h2 {
+  font-size: 4em;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 0 0 30px #fff;
+  color:ghostwhite;
+  text-align: center;
+}
+
+#tabla {
+  width: 80%;
+  height: auto;
+  background-color: white;
+  margin-top: 2%;
+  border: solid 0.2em black;
+  border-style: solid green;
+  box-shadow: 10px -3px 20px 5px white;
+  display:flex;
+  flex-wrap: wrap;
+
+}
+
+.rectangulo0 {
+  width:10%;
+  height: 500px;
+  background-color: grey;
+  border: solid 2px black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rectangulo1 {
+  width:26%;
+  height: 500px;
+  background-color: white ;
+  border: solid 2px black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.rectangulo2 {
+  width:54%;
+  height: 500px;
+  background-color: white ;
+  border: solid 2px black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: inherit;
+
+}
+
+
+.consolas {
+font-family: 'Fascinate Inline', cursive;
+font-size: 4em;
+color: orange;
+writing-mode: vertical-lr;
+text-align: center;
+}
+
+.card1 {
+  width:33.33%;
+  height:250px;
+  border: solid 2px black;
+}
+
+
+.wii_imagenes {
+  width:100%;
+  height: auto;
+
+}
+
+.wii_imagenes2 {
+  width:100%;
+  height: 200px;
+}
+
+.texto5 {
+  text-align: center;
+  font-family: 'orbitron';
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+}
+
+
+.texto6 {
+  text-align: center;
+  font-family: 'orbitron';
+  font-size: 20px;
+  font-weight: bold;
+  color: #21618c ;
+}
+
+
+
+  @media (max-width:500px) {
+
+    /* estilo consolas.php */
+
+
+    h2 {
+      font-size: 2em;
+    }
+
+    .rectangulo0 {
+      width:26%;
+    }
+
+    .rectangulo1 {
+      width:74%
+    }
+
+    .rectangulo2 {
+      width:74%;
+      overflow: scroll;
+    }
+
+    .card1 {
+      width:100%;
+
+    }
+
+    .texto5 {
+      font-size: 0.83em;
+    }
+
+    .consolas {
+      font-size: 2.2em;
+    }
+
 
     /* estilo barra png's creditcard/delivery/location/ok */
 
@@ -393,7 +527,38 @@ h3:hover {
 
 }
 
-  @media (min-width:580px) and (max-width:800px) {
+  @media (min-width:500px) and (max-width:980px) {
+
+/* estilo consolas.php */
+
+.consolas {
+  font-size: 2.8em;
+}
+
+.rectangulo0 {
+  width:16%;
+}
+
+.rectangulo1 {
+  width:34%
+}
+
+.rectangulo2 {
+  width:34%;
+  overflow: scroll;
+}
+
+.card1 {
+  width:100%;
+
+}
+
+.texto5 {
+  font-size: 0.8em;
+}
+
+
+
 
 /* estilo barra png's creditcard/delivery/location/ok */
 
