@@ -1,3 +1,37 @@
+/* EFECTOS NAVBAR */
+
+h1 {
+  font-size: 5em;
+  font-family: 'Orbitron', sans-serif;
+  color:burlywood;
+  width:40%;
+  text-shadow: 0 0 30px #fff;
+}
+
+nav li a{
+  color: orange;
+  display: block;
+  padding: 0 2.5em;
+  transition: 0.4s;
+}
+
+nav li a:hover {
+  background-color: #717d7e;
+}
+
+
+.dropdown-menu {
+  background-color: #343a40;
+  margin:0:
+  padding:0;
+}
+
+.dropdown-menu a:hover {
+  background-color: #717d7e;
+  color:#343a40;
+}
+
+
 *{
   padding: 0;
   margin: 0;
@@ -193,7 +227,7 @@ border-radius: 100%;
   background-color: white;
   margin-top: 2%;
   margin-left: 10%;
-  border: solid 0.5em black;
+  border: solid 0.5em #b4b0b0;
   border-style:groove;
   display:flex;
   flex-wrap: wrap;
@@ -204,17 +238,8 @@ border-radius: 100%;
 
 }
 
-
-.contenedor1 {
- width: 33.3%;
- height: auto;
- border: solid 0.4em black;
- border-style:groove;
- display: flex;
- flex-direction: column;
- align-items: center;
- box-sizing:  border-box;
-}
+/* esto lo cambie porque en chrome se mostraba negro
+el #b4b0b0 solía ser black */
 
 .imagen1 {
   width:100%;
@@ -244,10 +269,21 @@ border-radius: 100%;
   height: 65%;
 }
 
+.contenedor1 {
+ width: 33.3%;
+ height: auto;
+ border: solid 0.4em #b4b0b0;
+ border-style:groove;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ box-sizing:  border-box;
+}
+
 .contenedor2 {
   width: 33.3%;
   height: auto;
-  border: solid 0.4em black;
+  border: solid 0.4em #b4b0b0;
   border-style:groove;
   display: flex;
   flex-direction: column;
@@ -257,7 +293,7 @@ border-radius: 100%;
 .contenedor3 {
   width: 33.3%;
   height: auto;
-  border: solid 0.4em black;
+  border: solid 0.4em #b4b0b0;
   border-style:groove;
   display: flex;
   flex-direction: column;
@@ -267,7 +303,7 @@ border-radius: 100%;
 .contenedor4 {
  width: 33.3%;
  height: auto;
- border: solid 0.4em black;
+ border: solid 0.4em #b4b0b0;
  border-style:groove;
  display: flex;
  flex-direction: column;
@@ -277,7 +313,7 @@ border-radius: 100%;
 .contenedor5 {
   width: 33.3%;
   height: auto;
-  border: solid 0.4em black;
+  border: solid 0.4em #b4b0b0;
   border-style:groove;
   display: flex;
   flex-direction: column;
@@ -287,7 +323,7 @@ border-radius: 100%;
 .contenedor6 {
   width: 33.3%;
   height: auto;
-  border: solid 0.4em black;
+  border: solid 0.4em #b4b0b0;
   border-style:groove;
   display: flex;
   flex-direction: column;
@@ -299,7 +335,7 @@ h3 {
   text-align: center;
   font-family: 'Bangers', cursive;
   font-size: 4em;
-  background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 29%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+  background: linear-gradient(to left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 29%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
 }
 
 h3:hover {

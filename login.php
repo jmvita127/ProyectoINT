@@ -22,7 +22,7 @@
     <div class="contenedor">
       <form class="formulariogrande" action="index.php" method="post">
         <div class="form-header">
-          <h1 class "form-title">I<span>ngresar</span> </h1>
+          <h2 class "form-title">I<span>ngresar</span> </h2>
         </div>
           <label class="form-label" for="mail">Correo Electrónico:</label>
           <input class="form-input" id="mail" type="email" name="mail-formulario" placeholder="Ingrese su Correo Electrónico...">

@@ -23,7 +23,7 @@
     <div class="contenedor">
       <form class="formulariogrande" action="index.php" method="post">
         <div class="form-header">
-          <h1 class "form-title">R<span>egistro</span> </h1>
+          <h2 class="form-title">R<span>egistro</span> </h2>
         </div>
           <label class="form-label" for="nombre">Nombre:</label>
           <input class="form-input" id="nombre" type="text" name="nombre-formulario" placeholder="Ingrese su Nombre...">

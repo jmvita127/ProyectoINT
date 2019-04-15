@@ -8,7 +8,7 @@ body {
   background-size:cover;
 }
 
-.contenedor  {
+.contenedor, .form-header  {
   font-weight: normal;
   font-family: 'Orbitron';
   text-align: center;
@@ -16,13 +16,7 @@ body {
   padding: 14px, 0px;
 }
 
-.form-header {
-  font-weight: normal;
-  font-family: 'Orbitron';
-  text-align: center;
-  color: #ff851b;
-  padding: 14px, 0px;
-}
+
 .formulariogrande {
   font-weight: normal;
   font-family: 'Orbitron';
@@ -35,19 +29,7 @@ body {
   color: #ff851b;
   padding: 14px, 0px;
 }
-.contenedor {
-  color: #fff;
-}
-
-.form-header {
-  color: #fff;
-}
-
-.formulariogrande {
-  color: #fff;
-}
-
-.form-title {
+.contenedor, .form-header, .formulariogrande, .form-title {
   color: #fff;
 }
 
@@ -59,7 +41,7 @@ span {
   color: orange;
 }
 
-.contenedor {
+.contenedor, .formulariogrande {
   background: rgba(0, 0, 0, .6);
   width: 90%;
   max-width: 650px;
@@ -70,34 +52,7 @@ span {
   border-radius: 15px;
 }
 
-.formulariogrande {
-  background: rgba(0, 0, 0, .6);
-  width: 90%;
-  max-width: 650px;
-  margin: auto;
-  padding: 5px 35px;
-  margin-top: 30px;
-  padding-bottom: 30px;
-  border-radius: 3px;
-}
-
-.contenedor  {
-  display: block;
-  color: #ff851b;
-  font-size: 16px;
-  font-family: 'Orbitron';
-  position: relative;
-}
-
-.formulariogrande  {
-  display: block;
-  color: #ff851b;
-  font-size: 16px;
-  font-family: 'Orbitron';
-  position: relative;
-}
-
-.form-label {
+.contenedor, .formulariogrande, .form-label  {
   display: block;
   color: #ff851b;
   font-size: 16px;
@@ -109,52 +64,7 @@ span {
   padding-top: 10px;
 }
 
-.contenedor {
-background: rgba(0,0,0,.7);
-border: none;
-outline: none;
-border-bottom: 2px solid #ff851b;
-width:100%;
-padding: 12px;
-margin-bottom: 50px;
-border-radius: 2px;
-font-size: 14px;
-color: #FFF;
-font-family: 'Orbitron';
-
-}
-
-.form{
-background: rgba(0,0,0,.7);
-border: none;
-outline: none;
-border-bottom: 2px solid #ff851b;
-width:100%;
-padding: 12px;
-margin-bottom: 50px;
-border-radius: 2px;
-font-size: 14px;
-color: #FFF;
-font-family: 'Orbitron';
-
-}
-
-.form-input  {
-background: rgba(0,0,0,.7);
-border: none;
-outline: none;
-border-bottom: 2px solid #ff851b;
-width: 100%;
-padding: 12px;
-margin-bottom: 50px;
-border-radius: 2px;
-font-size: 14px;
-color: #FFF;
-font-family: 'Orbitron';
-
-}
-
-.form-textarea {
+.contenedor, .form, .form-input, .form-textarea {
 background: rgba(0,0,0,.7);
 border: none;
 outline: none;
@@ -175,19 +85,7 @@ max-height: 150px;
 min-height: 50px;
 }
 
-.form  {
-resize: vertical;
-max-height: 150px;
-min-height: 50px;
-}
-
-.form-textarea {
-resize: vertical;
-max-height: 150px;
-min-height: 50px;
-}
-
-.contenedor {
+.contenedor, .form {
   width: 100%;
   font-family: 'Orbitron';
   outline: none;
@@ -196,20 +94,6 @@ min-height: 50px;
   border: none;
   color: #FFF;
   padding: 15px 0px;
-
-  transition: all .5 ease;
-}
-
-.form {
-  width: 100%;
-  font-family: 'Orbitron';
-  outline: none;
-  color: #ff851b;
-  font-size: 16px;
-  border: none;
-  color: #FFF;
-  padding: 15px 0px;
-
   transition: all .5 ease;
 }
 
@@ -235,45 +119,4 @@ color: orange;
 .btn-submit:hover {
 color: #F29718;
 background-color: rgba(77,86,86,.7);
-}
-
-/* EFECTOS NAVBAR */
-
-h1 {
-  font-size: 5em;
-  font-family: 'Orbitron', sans-serif;
-  color:burlywood;
-  width:40%;
-  text-shadow: 0 0 30px #fff;
-
-}
-
-h1:hover {
-
-}
-
-
-nav li a{
-  color: orange;
-  display: block;
-  padding: 0 2.5em;
-  transition: 0.4s;
-}
-
-nav li a:hover {
-
-  background-color: #717d7e;
-
-}
-
-
-.dropdown-menu {
-  background-color: #343a40;
-  margin:0:
-  padding:0;
-}
-
-.dropdown-menu a:hover {
-  background-color: #717d7e;
-  color:#343a40;
 }
