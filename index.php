@@ -107,7 +107,7 @@
         <article class="contenedor1" id="relativo">
 
           <img class="imagen1" src="imagenes/promo1.jpg" alt="">
-          <a href="" id="enlace"></a>
+          <!-- <a href="" id="enlace"></a> -->
           <p class="texto3">Mouse Gamer Stone X9 / Para Juegos </p>
           <p class="texto4"><img class="carrito2" src="imagenes/carrito.png" alt="">$499,99</p>
 
@@ -115,7 +115,7 @@
 
         <article class="contenedor2" id="relativo">
           <img class="imagen2" src="imagenes/promo2.jpg" alt="">
-          <a href="" id="enlace"></a>
+          <!-- <a href="" id="enlace"></a> -->
           <p class="texto3">Motherboard Msi S1151 B360m Bazooka Box</p>
           <p class="texto4"><img class="carrito2" src="imagenes/carrito.png" alt="">$2499</p>
 
@@ -123,7 +123,7 @@
 
         <article class="contenedor3" id="relativo">
           <img class="imagen3" src="imagenes/promo3.jpg" alt="">
-          <a href="" id="enlace"></a>
+          <!-- <a href="" id="enlace"></a> -->
           <p class="texto3">SSD 250 WD</p>
           <p class="texto4"><img class="carrito2" src="imagenes/carrito.png" alt="">$1590</p>
 
@@ -132,7 +132,7 @@
         <article class="contenedor4" id="relativo">
 
           <img class="imagen4" src="imagenes/promo4.jpg" alt="">
-          <a href="" id="enlace"></a>
+          <!-- <a href="" id="enlace"></a> -->
           <p class="texto3">Gabinete Gamer Redragon Sideswipe Gc-601 Rgb Vidrio Templado</p>
           <p class="texto4"><img class="carrito2" src="imagenes/carrito.png" alt="">$499,99</p>
 
@@ -140,7 +140,7 @@
 
         <article class="contenedor5" id="relativo">
           <img class="imagen5" src="imagenes/promo5.jpg" alt="">
-          <a href="" id="enlace"></a>
+          <!-- <a href="" id="enlace"></a> -->
           <p class="texto3">Fuente Pc Evga Gq 850w 80plus Gold Modular Silent</p>
           <p class="texto4"><img class="carrito2" src="imagenes/carrito.png" alt="">$2499</p>
 
@@ -148,7 +148,7 @@
 
         <article class="contenedor6" id="relativo">
           <img class="imagen6" src="imagenes/promo6.jpg" alt="">
-          <a href="" id="enlace"></a>
+          <!-- <a href="" id="enlace"></a> -->
           <p class="texto3">Placa De Video Asus Phoenix Geforce Gtx 1050 2gb</p>
           <p class="texto4"><img class="carrito2" src="imagenes/carrito.png" alt=""> $7590</p>
 
