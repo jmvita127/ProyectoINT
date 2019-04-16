@@ -22,8 +22,8 @@
     <div class="col-12 col-md-6 col-lg-4">
       <ul>
         <h5>MI CUENTA</h5>
-        <a href="preguntas.php"><li>Mi Carrito</li></a>
-        <a href="preguntas.php"><li>Modificar Mis Datos</li></a>
+        <a href="login.php"><li>Mi Carrito</li></a>
+        <a href="login.php"><li>Modificar Mis Datos</li></a>
       </ul>
       </div>
 
