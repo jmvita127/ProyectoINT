@@ -117,7 +117,7 @@
       <div class="card-body">
         <h5 class="card-title" style="font-family: 'Orbitron', sans-serif;
         font-weight: bold;">LIBRO DE QUEJAS</h5>
-        <p class="card-text">Proximamente podra enviar desde nuestra web su incomodidad con nosotros.</p>
+        <p class="card-text">¿Alguna sugerencia que quieras hacernos? Para eso está nuestro <a href="librodequejas.php">libro de quejas</a>.</p>
       </div>
     </div>
     </div>
