@@ -9,17 +9,13 @@
   <body>
 
     <section class="section1">
-
-
     <div class="row">
-
       <div class="col-12 col-md-6 col-lg-4">
         <ul>
         <h5>NEGOCIO INFORMATICO</h5>
         <a href="#"><li>Conoce Nuestra Historia</li></a>
         <a href="#"><li>Donde nos Encontramos?</li></a>
         <a href="#"><li>Trabaja con Negocios Informaticos S.A.</li></a>
-
       </ul>
     </div>
 
@@ -40,16 +36,11 @@
         <a href="#"><li>Centro de Ayuda</li></a>
       </ul>
       </div>
-
     </div>
-
     </div>
-
   </section>
-
     <footer class="pie">
       <p>Copyright © 2019 Negocios Informáticos S.A. | Todos los derechos reservados</p>
     </footer>
-
   </body>
 </html>

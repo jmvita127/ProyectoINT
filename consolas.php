@@ -19,14 +19,10 @@
   </header>
 
   <h2>CONSOLAS VIDEO JUEGOS</h2>
-
-
   <section>
-
     <div class="container-fluid" id="tabla">
       <div class="rectangulo0">
         <p class="consolas">WII</p>
-
       </div>
       <div class="rectangulo1">
         <img class="wii_imagenes" src="imagenes/WII.jpg" alt="">
@@ -39,12 +35,9 @@
           * Barra Sensora con cable o sin</p>
           <p class="texto6">$2989,90</p>
         </div>
-
         <div class="rectangulo0">
           <p class="consolas">JUEGOS</p>
-
         </div>
-
         <div class="rectangulo2">
           <div class="card1">
             <img class="wii_imagenes2" src="imagenes/wii_juego_1.jpg" alt="">
@@ -69,22 +62,17 @@
           <div class="card1">
             <img class="wii_imagenes2" src="imagenes/wii_juego_6.jpg" alt="">
             <p class="texto6">$1015</p>
-          </div> -->
+          </div>
         </div>
       </div>
-
-
     </div>
-
   </section>
 <br>
 
 <section>
-
   <div class="container-fluid" id="tabla">
     <div class="rectangulo0">
       <p class="consolas">PS4</p>
-
     </div>
     <div class="rectangulo1">
       <img class="wii_imagenes" src="imagenes/PS4.png" alt="">
@@ -129,7 +117,6 @@
   </section>
 
 <br>
-
 
   <?php
   include('footer.php');
