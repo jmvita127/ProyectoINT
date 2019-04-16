@@ -31,7 +31,7 @@
       <ul>
         <h5>SERVICIO AL CLIENTE</h5>
         <a href="preguntas.php"><li>Formas De Pago</li></a>
-        <a href="preguntas.php"><li>Libro De Quejas</li></a>
+        <a href="librodequejas.php"><li>Libro De Quejas</li></a>
         <a href="preguntas.php"><li>Garantia</li></a>
         <a href="preguntas.php"><li>Centro de Ayuda</li></a>
       </ul>
