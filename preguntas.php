@@ -156,7 +156,10 @@
       <div class="card-body">
         <h5 class="card-title" style="font-family: 'Orbitron', sans-serif;
         font-weight: bold;">FORMAS DE PAGO</h5>
-        <p class="card-text">Insertar Imagenes</p>
+        <p class="card-text">EFECTIVO</p>
+        <p class="card-text">VISA</p>
+        <p class="card-text">MASTERCARD</p>
+        <p class="card-text">DEPOSITO BBVA FRANCES</p>
       </div>
     </div>
   </div>
@@ -175,10 +178,10 @@
       <div class="card-body">
         <h5 class="card-title" style="font-family: 'Orbitron', sans-serif;
         font-weight: bold;">MARCAS OFICIALES</h5>
-        <p class="card-text">Gigabyte
-        MSI
-        SAMSUNG
-        CORSAIR</p>
+        <p class="card-text">Gigabyte</p>
+        <p class="card-text">MSI</p>
+        <p class="card-text">Sony</p>
+        <p class="card-text">Samsung</p>
       </div>
     </div>
   </div>

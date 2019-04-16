@@ -40,7 +40,7 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <button class="btn" type="submit"><img src="imagenes/carrito.png" alt="" witdh="50" height="50"></button><br>
-          <a href="registro.php"><button type="button" class="btn btn-outline-danger">REGISTRARSE</button></a>
+          <a class="botonreg" href="registro.php"><button type="button" class="btn btn-outline-danger">REGISTRARSE</button></a>
           <a href="login.php"> <button type="button" class="btn btn-outline-warning">LOG-IN</button></a>
         </form>
       </div>
