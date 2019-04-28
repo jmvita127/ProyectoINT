@@ -22,6 +22,7 @@
 
       </header>
 
+      <div class="col-12 col-md-12 col-lg-12">
       <div class="container-fluid">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -44,6 +45,8 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
+      </div>
+    </div>
 
 
         <div  class="barra">

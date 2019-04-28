@@ -17,7 +17,7 @@
 
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="NISA" href="index.php"><h1>NISA </a><a href="index.php"><img src="imagenes/logo.jpg" alt="logo" witdh="100" height="110"></a></h1>
+    <a class="NISA" href="index.php"><a href="index.php"><img src="imagenes/logo.jpg" alt="logo" witdh="100" height="110"></a></h1>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
