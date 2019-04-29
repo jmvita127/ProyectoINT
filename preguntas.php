@@ -25,13 +25,12 @@
   <div class="row">
 
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
     style="
       text-align: center;
-      max-width: 20rem;
-      margin-left: 10px;
-      margin-right: 0px;
+      max-width: 50rem;
+      margin: auto;
       padding-left: 0px;
       padding-top: 10px;
       ">
@@ -43,13 +42,12 @@
     </div>
   </div>
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
     style="
       text-align: center;
-      max-width: 20rem;
-      margin-left: 10px;
-      margin-right: 0px;
+      max-width: 50rem;
+      margin: auto;
       padding-left: 0px;
       padding-top: 10px;
       ">
@@ -61,13 +59,12 @@
     </div>
   </div>
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
     style="
       text-align: center;
-      max-width: 20rem;
-      margin-left: 10px;
-      margin-right: 0px;
+      max-width: 50rem;
+      margin: auto;
       padding-left: 0px;
       padding-top: 10px;
       ">
@@ -75,21 +72,18 @@
       <div class="card-body">
         <h5 class="card-title" style="font-family: 'Orbitron', sans-serif;
         font-weight: bold;">CONTACTO</h5>
-        <p class="card-text">contacto@nisa.com
-        postventas@nisa.com
-        3220-3399</p>
+        <p class="card-text">contacto@nisa.com / postventas@nisa.com / 3220-3399</p>
       </div>
     </div>
   </div>
 
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
     style="
       text-align: center;
-      max-width: 20rem;
-      margin-left: 10px;
-      margin-right: 0px;
+      max-width: 50rem;
+      margin: auto;
       padding-left: 0px;
       padding-top: 10px;
       ">
@@ -103,13 +97,12 @@
   </div>
 
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
     style="
       text-align: center;
-      max-width: 20rem;
-      margin-left: 10px;
-      margin-right: 0px;
+      max-width: 50rem;
+      margin: auto;
       padding-left: 0px;
       padding-top: 10px;
       ">
@@ -123,13 +116,12 @@
     </div>
 
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
     style="
       text-align: center;
-      max-width: 20rem;
-      margin-left: 10px;
-      margin-right: 0px;
+      max-width: 50rem;
+      margin: auto;
       padding-left: 0px;
       padding-top: 10px;
       ">
@@ -142,13 +134,12 @@
     </div>
   </div>
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
     style="
       text-align: center;
-      max-width: 20rem;
-      margin-left: 10px;
-      margin-right: 0px;
+      max-width: 50rem;
+      margin: auto;
       padding-left: 0px;
       padding-top: 10px;
       ">
@@ -164,13 +155,12 @@
     </div>
   </div>
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
     style="
       text-align: center;
-      max-width: 20rem;
-      margin-left: 10px;
-      margin-right: 0px;
+      max-width: 50rem;
+      margin: auto;
       padding-left: 0px;
       padding-top: 10px;
       ">

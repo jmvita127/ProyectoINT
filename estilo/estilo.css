@@ -229,12 +229,11 @@ border-radius: 100%;
   width: 74%;
   height: auto;
   background-color: white;
-  margin: auto;
-  margin-top: 10px;
   border: solid 0.5em #b4b0b0;
   border-style:groove;
   display:flex;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 .contenedor0 {

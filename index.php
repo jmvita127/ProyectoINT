@@ -94,7 +94,7 @@
         </div>
       </div>
 
-      <section class="caja1">
+      <section class="caja1" style="margin: auto;">
 
         <article class="contenedor0">
           <h3>OFERTAS SEMANALES IMPERDIBLES!</h3>
