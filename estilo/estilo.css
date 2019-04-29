@@ -1,15 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
 /* EFECTOS NAVBAR */
 .botonreg{
   margin: 2px;
 }
 
+.btn btn-outline-danger {
+  font-size: 2em;
+}
 
+#buscador {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+width: 100%;
+margin: auto;
+
+}
 h1 {
-  font-size: 5em;
+  font-size: 4.5em;
   font-family: 'Orbitron', sans-serif;
   color:burlywood;
   width:40%;
-  text-shadow: 0 0 30px #fff;
+  text-shadow: 0 0 30px #ffb;
+  text-decoration: none;
+}
+
+nav {
+  display: inline-block;
 }
 
 nav li a{
@@ -28,25 +51,36 @@ nav li a:hover {
   background-color: #343a40;
   margin:0;
   padding:0;
+  font-weight: bolder;
+  top:50%;
 }
 
 .dropdown-menu a:hover {
-  background-color: #717d7e;
+  background-color: rgb(113,125,126);
   color:#343a40;
 }
 
+.dropdown-item {
+  text-align: center;
+}
 
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+#navbarTogglerDemo01{
+  text-align: center;
+}
 
+.form-inline {
+  text-align: center;
 }
 
 .container-fluid{
   padding-left:  0px;
   padding-right: 0px;
   padding-top: 0px;
+}
+
+.carrito {
+  margin: auto;
+  padding: auto;
 }
 
 .header{
@@ -57,15 +91,6 @@ nav li a:hover {
 
 }
 
-.NISA {
-  text-decoration: none;
-  color:orange;
-}
-
-.NISA:hover {
-  text-decoration: none;
-  color:orange;
-}
 
 .header img{
 
@@ -77,6 +102,16 @@ nav li a:hover {
 
   color: orange;
 
+}
+
+.NISA {
+  text-decoration: none;
+  color:orange;
+}
+
+.NISA:hover {
+  text-decoration: none;
+  color:orange;
 }
 
 body {
@@ -165,6 +200,7 @@ position: absolute;
   height: auto;
   display: block;
   overflow: hidden;
+  margin-bottom: 2%;
 
 }
 
@@ -227,13 +263,14 @@ border-radius: 100%;
 
 .caja1{
   width: 74%;
+  margin: auto;
   height: auto;
   background-color: white;
   border: solid 0.5em #b4b0b0;
   border-style:groove;
   display:flex;
   flex-wrap: wrap;
-  margin: auto;
+  margin-top: 2%;
 }
 
 .contenedor0 {
@@ -468,9 +505,19 @@ text-align: center;
 
 
 
-  @media (max-width:500px) {
+  @media (max-width:576px) {
 
     /* estilo consolas.php */
+
+
+   h1 {
+     font-size: 0;
+   }
+
+   .logo {
+     width: 70%;
+     margin: auto;
+   }
 
 
     h2 {
@@ -507,20 +554,20 @@ text-align: center;
     /* estilo barra png's creditcard/delivery/location/ok */
 
   .creditcard {
-    width: 42%;
+    width: 36%;
     display: block;
     margin: auto;
     padding-top: 2%;
   }
 
   .delivery {
-    width: 42%;
+    width: 36%;
     display: block;
     margin: auto;
   }
 
   .location {
-    width: 38%;
+    width: 36%;
     display: block;
     margin: auto;
   }
@@ -533,14 +580,14 @@ text-align: center;
 
   .texto1 {
     width: auto;
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
   }
 
 
   .texto2 {
     width: auto;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
   }
 
@@ -576,7 +623,18 @@ text-align: center;
 
 }
 
-  @media (min-width:500px) and (max-width:980px) {
+  @media (min-width:576px) and (max-width:860px) {
+
+  /* estilo nav */
+
+    h1 {
+      font-size: 0;
+    }
+
+    .logo {
+      width: 70%;
+      margin: auto;
+    }
 
 /* estilo consolas.php */
 
