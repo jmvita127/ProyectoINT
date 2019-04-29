@@ -102,8 +102,6 @@
      </div>
   </section>
 
-<br>
-
   <?php
   include('footer.php');
   ?>

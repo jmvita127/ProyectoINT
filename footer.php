@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Negocio Informatico</title>
-    <link rel="stylesheet" href="estilo/estilo.css">
-    <link rel="shortcut icon" href="imagenes/logo.jpg"/>
-  </head>
-  <body>
+
 
     <section class="section1">
     <div class="row">

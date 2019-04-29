@@ -52,9 +52,3 @@
     </nav>
 
   </header>
-
-
-
-
-</body>
-</html>
