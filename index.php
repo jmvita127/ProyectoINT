@@ -6,7 +6,7 @@
 
 
       <div class="container-fluid">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" class="carouselimg carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="imagenes/gtx.jpg"  class="carouselimg d-100 w-100" alt="...">

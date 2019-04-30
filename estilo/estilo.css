@@ -603,7 +603,7 @@ text-align: center;
     /* estilo imagen carousel*/
 
     .carouselimg{
-      height: 150px;
+      display: none;
     }
 
 
