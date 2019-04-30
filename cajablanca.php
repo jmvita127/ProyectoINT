@@ -3,7 +3,7 @@
         include('header.php');
       ?>
 
-
+<a name="cuotas">
 <section class="tarjetasblanca">
   <article class="tarjeta1">
     <div class="col-12 col-md-6 col-lg-12">
@@ -21,9 +21,10 @@
     </div>
   </div>
 </article>
+</a>
 
 <br>
-
+<a name="envio">
 <article class="tarjeta2">
   <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
@@ -40,9 +41,10 @@
   </div>
 </div>
 </article>
+</a>
 
 <br>
-
+<a name="retira">
 <article class="tarjeta3">
   <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
@@ -59,9 +61,10 @@
   </div>
 </div>
 </article>
+</a>
 
 <br>
-
+<a name="compra">
 <article class="tarjeta4">
   <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
@@ -78,7 +81,7 @@
   </div>
 </div>
 </article>
-
+</a>
 </section>
 
     <?php

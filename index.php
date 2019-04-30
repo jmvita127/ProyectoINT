@@ -34,41 +34,41 @@
         <div  class="barra">
           <div class="row-barra">
             <div class="col-12 col-sm-2 col-md-2 col-lg-1" id="relativo">
-              <a href="cajablanca.php" id="enlace"></a>
+              <a href="cajablanca.php#cuotas" id="enlace"></a>
               <img class="creditcard" src="imagenes/creditcard.png" alt="">
             </div>
             <div class="col-12 col-sm-4 col-md-4 col-lg-2" id="relativo">
-               <a href="cajablanca.php" id="enlace"></a>
+               <a href="cajablanca.php#cuotas" id="enlace"></a>
               <p class="texto1">¡CUOTAS SIN INTERÉS!</p>
               <p class="texto2">En productos seleccionados</p>
             </div>
 
             <div class="col-12 col-sm-2 col-md-2 col-lg-1" id="relativo">
-            <a href="cajablanca.php" id="enlace"></a>
+            <a href="cajablanca.php#envio" id="enlace"></a>
               <img class="delivery" src="imagenes/delivery.png" alt="">
             </div>
             <div class="col-12 col-sm-4 col-md-4 col-lg-2" id="relativo">
-               <a href="cajablanca.php" id="enlace"></a>
+               <a href="cajablanca.php#envio" id="enlace"></a>
               <p class="texto1">ENVIOS A TODO EL PAIS</p>
               <p class="texto2">¡Rápido,sin vueltas!</p>
             </div>
 
             <div class="col-12 col-sm-2 col-md-2 col-lg-1" id="relativo">
-              <a href="cajablanca.php" id="enlace"></a>
+              <a href="cajablanca.php#retira" id="enlace"></a>
               <img class="location" src="imagenes/location.png" alt="">
             </div>
             <div class="col-12 col-sm-4 col-md-4 col-lg-2" id="relativo">
-              <a href="cajablanca.php" id="enlace"></a>
+              <a href="cajablanca.php#retira" id="enlace"></a>
               <p class="texto1">¡RETIRA GRATIS!</p>
               <p class="texto2">¿Donde estamos?</p>
             </div>
 
             <div class="col-12 col-sm-2 col-md-2 col-lg-1" id="relativo">
-              <a href="cajablanca.php" id="enlace"></a>
+              <a href="cajablanca.php#compra" id="enlace"></a>
               <img class="ok" src="imagenes/ok.png" alt="">
             </div>
             <div class="col-12 col-sm-4 col-md-4 col-lg-2" id="relativo">
-              <a href="cajablanca.php" id="enlace"></a>
+              <a href="cajablanca.php#compra"  id="enlace"></a>
               <p class="texto1">COMPRA 100% SEGURA</p>
               <p class="texto2">Garantias Oficiales</p>
             </div>
