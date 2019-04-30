@@ -492,6 +492,110 @@ text-align: center;
   color: #21618c ;
 }
 
+/* Estilo equipos.php */
+
+.equipos {
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 2.5em;
+  color: firebrick;
+  writing-mode: vertical-lr;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.equipos_gamer {
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 3.5em;
+  color: firebrick;
+  writing-mode: vertical-lr;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+.rectangulo3 {
+  width:13%;
+  height: 500px;
+  background-color: grey;
+  border: solid 2px black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.rectangulo4 {
+  width:29%;
+  height: 500px;
+  background-color: white ;
+  border: solid 2px black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.rectangulo4_sub {
+  width:33.33%;
+  height: 600px;
+  background-color: white ;
+  border: solid 2px black;
+}
+
+.texto7 {
+  text-align: center;
+  font-family: 'orbitron';
+  font-size: 13.5px;
+  font-weight: bold;
+  color: initial;
+}
+
+.pc_hogar_imagenes {
+  width:100%;
+  height: auto;
+
+}
+
+.pc_gamer_imagenes {
+  width:100%;
+  height: auto;
+}
+
+#tabla_2 {
+  width: 80%;
+  height: auto;
+  background-color: white;
+  border: solid 0.1em black;
+  border-style: solid green;
+  box-shadow: 10px -3px 20px 5px royalblue;
+  display:flex;
+  flex-wrap: wrap;
+
+}
+
+.rectangulo5 {
+    width:13%;
+    height: auto;
+    background-color: grey;
+    border: solid 2px black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rectangulo6 {
+  width:87%;
+  height: auto;
+  background-color: grey;
+  border: solid 2px black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
 
 
   @media (max-width:576px) {
