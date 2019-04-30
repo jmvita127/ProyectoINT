@@ -3,7 +3,7 @@
         include('header.php');
       ?>
 
-
+<a name="cuotas">
 <section class="tarjetasblanca">
   <article class="tarjeta1">
     <div class="col-12 col-md-6 col-lg-12">
@@ -21,9 +21,10 @@
     </div>
   </div>
 </article>
+</a>
 
 <br>
-
+<a name="envio">
 <article class="tarjeta2">
   <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
@@ -40,9 +41,10 @@
   </div>
 </div>
 </article>
+</a>
 
 <br>
-
+<a name="retira">
 <article class="tarjeta3">
   <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
@@ -54,14 +56,15 @@
     <div class="card-body">
       <h5 class="card-title" style="font-family: 'Orbitron', sans-serif;
       font-weight: bold;">¡RETIRA GRATIS!</h5>
-      <p class="card-text" style="font-size: 1.5em"> Retirá gratis por nuestro negocio a la calle ubicado en: <a href="https://www.google.com/maps/d/u/0/embed?mid=1mA5j87V9sipmGAgoIQebyNgtob8&msa=0&hl=es-419&ie=UTF8&t=m&ll=-34.60085699999997%2C-58.513184000000024&spn=0.038151%2C0.059137&z=14&output=embed">Dirección: Melincué 4566  CP1335 – Villa Devoto, C.A.B.A. – Argentina</a>. Basta con avisar que vas a pasar a retirarlo para que te lo separemos.</p>
+      <p class="card-text" style="font-size: 1.5em"> Retirá gratis por nuestro negocio a la calle ubicado en: <a target="_blank" href="https://www.google.com/maps/d/u/0/embed?mid=1mA5j87V9sipmGAgoIQebyNgtob8&msa=0&hl=es-419&ie=UTF8&t=m&ll=-34.60085699999997%2C-58.513184000000024&spn=0.038151%2C0.059137&z=14&output=embed">Dirección: Melincué 4566  CP1335 – Villa Devoto, C.A.B.A. – Argentina</a>. Basta con avisar que vas a pasar a retirarlo para que te lo separemos.</p>
     </div>
   </div>
 </div>
 </article>
+</a>
 
 <br>
-
+<a name="compra">
 <article class="tarjeta4">
   <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
@@ -78,7 +81,7 @@
   </div>
 </div>
 </article>
-
+</a>
 </section>
 
     <?php
