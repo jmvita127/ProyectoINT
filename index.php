@@ -4,18 +4,18 @@
         ?>
 
 
-      <div class="col-12 col-md-12 col-lg-12">
+
       <div class="container-fluid">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="imagenes/gtx.jpg" class="d-100 w-100" alt="...">
+              <img src="imagenes/gtx.jpg"  class="carouselimg d-100 w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="imagenes/game.jpg" class="d-100 w-100" alt="...">
+              <img src="imagenes/game.jpg"  class="carouselimg d-100 w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="imagenes/gtps4.jpg" class="d-100 w-100" alt="...">
+              <img src="imagenes/gtps4.jpg"  class="carouselimg d-100 w-100" alt="...">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -28,7 +28,7 @@
           </a>
         </div>
       </div>
-    </div>
+
 
 
         <div  class="barra">
