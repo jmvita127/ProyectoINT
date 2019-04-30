@@ -18,6 +18,7 @@
       padding-left: 0px;
       padding-top: 10px;
       ">
+      <a name="quienes">
       <div class="card-body">
         <h5 class="card-title" style="font-family: 'Orbitron', sans-serif;
         font-weight: bold;">¿QUIENES SOMOS?</h5>
@@ -25,6 +26,7 @@
       </div>
     </div>
   </div>
+
 
     <div class="col-12 col-md-6 col-lg-12">
     <div class="card text-white bg-dark mb-3"
@@ -109,12 +111,13 @@
       padding-left: 0px;
       padding-top: 10px;
       ">
-
+      <a name="garantia">
       <div class="card-body">
         <h5 class="card-title" style="font-family: 'Orbitron', sans-serif;
         font-weight: bold;">GARANTIA</h5>
         <p class="card-text">Negocios Informaticos S.A. no responde y el servicio técnico de la empresa NO revisará ni reparará ningún producto, pieza o componente cuando la garantía respectiva fuera expedida por el fabricante o su representante a nivel nacional, y éstos designen un Centro de Servicio Técnico</p>
       </div>
+      </a>
     </div>
   </div>
 
@@ -127,7 +130,7 @@
       padding-left: 0px;
       padding-top: 10px;
       ">
-
+      <a name="formasdepago">
       <div class="card-body">
         <h5 class="card-title" style="font-family: 'Orbitron', sans-serif;
         font-weight: bold;">FORMAS DE PAGO</h5>
@@ -136,6 +139,7 @@
         <p class="card-text">MASTERCARD</p>
         <p class="card-text">DEPOSITO BBVA FRANCES</p>
       </div>
+      </a>
     </div>
   </div>
 
