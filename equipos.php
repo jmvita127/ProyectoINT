@@ -7,22 +7,25 @@ include('header.php'); ?>
     <div class="rectangulo3">
       <p class="equipos">PC ARMADAS HOGAR</p>
     </div>
-    <div class="rectangulo4">
-      <img class="pc_hogar_imagenes" src="imagenes/pc-armada.jpg" alt="">
-      <p class="texto7">Mother GIGABYTE + CPU AMD E2-3000N.<br> Memoria DDR3 4GB SENTEY.<br> HD 1TB WD 7200 Rpm SATA 3 64MB.<br> Gabinete con Kit SENTEY G18 POWER KIT CS3-1356-CB BCP500-XS.
-      </p>
-      <p class="texto6">$9315,90</p>
-    </div>
-    <div class="rectangulo4">
-      <img class="pc_hogar_imagenes" src="imagenes/pc-armada2.jpg" alt="">
-      <p class="texto7">Mother MSI A68HM-E33 V2 S. FM2+.<br>AMD Apu A6 7400K X2 FM2 BOX.<br>Memoria DDR3 8GB KINGSTON 1600Mhz.<br>HD 1TB WD 7200 Rpm SATA3.<br>Gabinete RGB ATX 600W 8609.
-      </p>
-      <p class="texto6">$11989,30</p>
-    </div>
-    <div class="rectangulo4">
-      <img class="pc_hogar_imagenes" src="imagenes/pc-oficina3.jpg" alt="">
-      <p class="texto7">PC DUAL CORE + SSD 120GB + 4GB DDR4 + GABINETE KIT ACONCAWA + MONITOR 19.<br>¡INCLUYE TECLADO, MOUSE Y PARLANTES! </p>
-      <p class="texto6">$12989,90</p>
+    <div class="rectangulo_contenedor">
+
+      <div class="rectangulo4">
+        <img class="pc_hogar_imagenes" src="imagenes/pc-armada.jpg" alt="">
+        <p class="texto7">Mother GIGABYTE + CPU AMD E2-3000N.<br> Memoria DDR3 4GB SENTEY.<br> HD 1TB WD 7200 Rpm SATA 3 64MB.<br> Gabinete con Kit SENTEY G18 POWER KIT CS3-1356-CB BCP500-XS.
+        </p>
+        <p class="texto6">$9315,90</p>
+      </div>
+      <div class="rectangulo4">
+        <img class="pc_hogar_imagenes" src="imagenes/pc-armada2.jpg" alt="">
+        <p class="texto7">Mother MSI A68HM-E33 V2 S. FM2+.<br>AMD Apu A6 7400K X2 FM2 BOX.<br>Memoria DDR3 8GB KINGSTON 1600Mhz.<br>HD 1TB WD 7200 Rpm SATA3.<br>Gabinete RGB ATX 600W 8609.
+        </p>
+        <p class="texto6">$11989,30</p>
+      </div>
+      <div class="rectangulo4">
+        <img class="pc_hogar_imagenes" src="imagenes/pc-oficina3.jpg" alt="">
+        <p class="texto7">PC DUAL CORE + SSD 120GB + 4GB DDR4 + GABINETE KIT ACONCAWA + MONITOR 19.<br>¡INCLUYE TECLADO, MOUSE Y PARLANTES! </p>
+        <p class="texto6">$12989,90</p>
+      </div>
     </div>
 
   </div>

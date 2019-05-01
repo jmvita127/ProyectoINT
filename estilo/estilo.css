@@ -276,12 +276,12 @@ el #b4b0b0 solía ser black */
 
 .imagen2 {
   width:100%;
-  height: 70%;
+
 }
 
 .imagen3 {
   width:100%;
-  height: 70%;
+
 }
 
 .imagen4 {
@@ -290,12 +290,12 @@ el #b4b0b0 solía ser black */
 
 .imagen5 {
   width: 100%;
-  height: 65%;
+
 }
 
 .imagen6 {
   width:97%;
-  height: 65%;
+
 }
 
 .contenedor1 {
@@ -304,6 +304,7 @@ el #b4b0b0 solía ser black */
  border: solid 0.4em #b4b0b0;
  border-style:groove;
  display: flex;
+ flex-wrap: wrap;
  flex-direction: column;
  align-items: center;
  box-sizing:  border-box;
@@ -315,6 +316,7 @@ el #b4b0b0 solía ser black */
   border: solid 0.4em #b4b0b0;
   border-style:groove;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 }
@@ -325,6 +327,7 @@ el #b4b0b0 solía ser black */
   border: solid 0.4em #b4b0b0;
   border-style:groove;
   display: flex;
+ flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 }
@@ -335,6 +338,7 @@ el #b4b0b0 solía ser black */
  border: solid 0.4em #b4b0b0;
  border-style:groove;
  display: flex;
+flex-wrap: wrap;
  flex-direction: column;
  align-items: center;
 }
@@ -345,6 +349,7 @@ el #b4b0b0 solía ser black */
   border: solid 0.4em #b4b0b0;
   border-style:groove;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 }
@@ -355,6 +360,7 @@ el #b4b0b0 solía ser black */
   border: solid 0.4em #b4b0b0;
   border-style:groove;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 
@@ -374,17 +380,19 @@ h3:hover {
 .texto3 {
   text-align: center;
   font-family: 'orbitron';
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   color: red;
+  margin: auto;
 }
 
 .texto4 {
   text-align: center;
   font-family: 'orbitron';
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   color: #424d58;
+  margin: auto;
 }
 
 .carrito2 {
@@ -516,7 +524,7 @@ text-align: center;
 
 .rectangulo3 {
   width:13%;
-  height: 500px;
+  height: auto;
   background-color: grey;
   border: solid 2px black;
   display: flex;
@@ -525,11 +533,21 @@ text-align: center;
   justify-content: center;
 }
 
+.rectangulo_contenedor {
+  width:87%;
+  background-color: grey;
+  border: solid 2px black;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 
 
 .rectangulo4 {
-  width:29%;
-  height: 500px;
+  width:33.33%;
+  height: auto;
   background-color: white ;
   border: solid 2px black;
   display: flex;
@@ -539,7 +557,7 @@ text-align: center;
 
 .rectangulo4_sub {
   width:33.33%;
-  height: 600px;
+  height: auto;
   background-color: white ;
   border: solid 2px black;
 }
@@ -599,6 +617,8 @@ text-align: center;
 
 
   @media (max-width:576px) {
+
+
 
     /* estilo imagen carousel*/
 
@@ -721,6 +741,40 @@ text-align: center;
     width:100%;
   }
 
+  /* Estilos equipos.php */
+
+
+  .rectangulo3 {
+    width: 25%;
+    height: auto;
+  }
+
+  .rectangulo_contenedor {
+    width: 75%;
+    height: auto;
+  }
+
+  .rectangulo4 {
+    width:100%;
+    height: auto;
+  }
+
+  .rectangulo5 {
+    width:25%;
+    height: 1833px;
+  }
+
+  .rectangulo6 {
+    width:75%;
+    height: 1833px;
+    overflow: scroll;
+  }
+
+  .rectangulo4_sub {
+    width: 100%;
+    height: auto;
+  }
+
 }
 
   @media (min-width:576px) and (max-width:860px) {
@@ -840,6 +894,39 @@ text-align: center;
     .contenedor6 {
       width:50%;
 
+    }
+
+    /* Estilo equipos.php */
+
+    .rectangulo3 {
+      width:20%;
+    }
+
+    .rectangulo_contenedor {
+      width: 80%;
+    }
+
+    .rectangulo4 {
+      width:100%;
+    }
+
+    .equipos {
+      font-size: 4.5em;
+    }
+
+    .rectangulo5 {
+      width:20%;
+      height: auto;
+    }
+
+    .rectangulo6 {
+      width:80%;
+      height: auto;
+    }
+
+    .rectangulo4_sub {
+      width: 50%;
+      height: auto;
     }
 
 /*estilo preguntas frecuentes*/
