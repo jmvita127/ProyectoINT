@@ -16,39 +16,45 @@
 </head>
 <body>
 
-  <header class="header">
-
+  <header>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="NISA" href="index.php"></a><h1>NISA <a href="index.php"><img class="logo" src="imagenes/logo.jpg" alt="logo" witdh="100" height="110"></a></h1>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="NISA" href="index.php"></a><h1>NISA <a href="index.php"><img class="logo" src="imagenes/logo.jpg" alt="logo" witdh="100" height="110"></a></h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="index.php" style="color:orange;">HOME</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="index.php" style="color:orange;">HOME <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:orange;">PRODUCTOS</a>
-            <div class="dropdown-menu">
+            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:orange;">PRODUCTOS</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="equipos.php" style="color:orange;">EQUIPOS</a>
               <a class="dropdown-item" href="consolas.php" style="color:orange;">CONSOLAS</a>
-
             </div>
-
-          <li class="nav-item">
-            <a class="nav-link" href="preguntas.php" style="color:orange;">¿QUIENES SOMOS?</a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="preguntas.php" style="color:orange;">¿QUIENES SOMOS? <span class="sr-only">(current)</span></a>
+          </li>
+
         </ul>
         <form class="form-inline my-2 my-lg-0" id="buscador">
           <input class="form-control mr-sm-2" type="search" placeholder="Buscar Producto" aria-label="Search">
+        </form>
+        <li class="carrito">
           <img class="carrito" src="imagenes/carrito.png" alt="" witdh="30" height="30">
+        </li>
+        <li class="boton">
           <button class="btn" type="submit"></button><br>
           <a class="botonreg" href="registro.php"><button type="button" class="btn btn-outline-danger">REGISTRARSE</button></a>
           <a href="login.php"> <button type="button" class="btn btn-outline-warning">LOG-IN</button></a>
-        </form>
+
+        </li>
+
+
       </div>
     </nav>
-
   </header>

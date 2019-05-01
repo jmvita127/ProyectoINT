@@ -22,16 +22,23 @@ h1 {
 
 nav {
   display: inline-block;
+  margin: auto;
+  padding: 0;
+  background-color: Red;
 }
 
-nav li a{
+li {
+  list-style: none;
+}
+
+li a{
   color: orange;
   display: block;
   padding: 0 2.5em;
   transition: 0.4s;
 }
 
-nav li a:hover {
+.nav-link:hover {
   background-color: #717d7e;
 }
 
@@ -41,7 +48,7 @@ nav li a:hover {
   margin:0;
   padding:0;
   font-weight: bolder;
-  top:50%;
+  top:100%;
 }
 
 .dropdown-menu a:hover {
@@ -70,6 +77,7 @@ nav li a:hover {
 .carrito {
   margin: auto;
   padding: auto;
+
 }
 
 .header{
@@ -77,11 +85,12 @@ nav li a:hover {
   list-style-type: none;
   font-family: 'Orbitron', sans-serif;
   font-weight: bold;
+  background-color: #717d7e;
 
 }
 
 
-.header img{
+.logo{
 
   border-radius: 50%;
 
@@ -122,8 +131,12 @@ footer {
  padding-top: 2px;
 }
 
+.boton {
+  margin-left: -5%;
+}
+
 .btn{
-  text-align: right;
+  text-align: left;
 }
 
 
@@ -619,6 +632,17 @@ text-align: center;
   @media (max-width:576px) {
 
 
+/* estilo nav */
+
+  .boton {
+    margin-left: -10%;
+  }
+
+  .carrito{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+  }
 
     /* estilo imagen carousel*/
 
@@ -788,6 +812,12 @@ text-align: center;
     .logo {
       width: 70%;
       margin: auto;
+    }
+
+    .carrito{
+      width: 50px;
+      height: 50px;
+      margin: 0;
     }
 
 /* estilo consolas.php */
