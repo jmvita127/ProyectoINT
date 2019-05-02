@@ -1,17 +1,15 @@
 <?php
 session_start();
 ?>
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
-    <body>
-        <a href="index.php">Ir al home</a> <br>
-        <a href="cerrarSession.php">Salir</a>
+<link rel="stylesheet" href="estilo/estilo.css">
+<link rel="stylesheet" href="estilo/estiloform.css">
+<?php
+include('header.php');
+?>
+<h3><img class="avatar2"  src="<?php echo $_SESSION['avatar']; ?>" alt="">Bienvenido <?php echo $_SESSION['email']; ?> <img class="avatar2"  src="<?php echo $_SESSION['avatar']; ?>" alt=""></h3>
 
-        <h1>Bienvenido <?php echo $_SESSION['email']; ?></h1>
-        <img src="<?php echo $_SESSION['avatar']; ?>" alt="">
-    </body>
-</html>
+<h3><a href="index.php">Ir al home</a> <br> </h3>
+  <h3><a href="cerrarSession.php">Salir</a></h3>
+  <?php
+  include('footer.php');
+  ?>

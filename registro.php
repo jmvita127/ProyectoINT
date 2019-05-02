@@ -58,7 +58,7 @@
               $avatar='';
               if($_FILES['avatar']["error"]===UPLOAD_ERR_OK){
                   $tipoImagen = $_FILES['avatar']['type'];
-                  if( $tipoImagen == 'imagenes/png' || $tipoImagen == 'imagenes/jpg' || $tipoImagen == 'imagenes/jpeg' || $tipoImagen == 'imagenes/gif'){
+                  if( $tipoImagen == 'image/png' || $tipoImagen == 'image/jpg' || $tipoImagen == 'image/jpeg' || $tipoImagen == 'image/gif'){
                       $ext = pathinfo($_FILES['avatar']['name'],  PATHINFO_EXTENSION);
                       $avatar = 'avatars/' . $_POST['mail-formulario'] . '.' . $ext;
                       move_uploaded_file($_FILES['avatar']['tmp_name'], $avatar);
