@@ -1,6 +1,6 @@
 
       <?php
-      //agrego el menu con toda su logica
+        session_start();
         include('header.php');
       ?>
 
@@ -27,5 +27,3 @@
     <?php
       include('footer.php');
     ?>
-
-  

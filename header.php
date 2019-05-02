@@ -47,14 +47,18 @@
         <li class="carrito">
           <img class="carrito" src="imagenes/carrito.png" alt="" witdh="30" height="30">
         </li>
+        
         <li class="boton">
           <button class="btn" type="submit"></button><br>
           <a class="botonreg" href="registro.php"><button type="button" class="btn btn-outline-danger">REGISTRARSE</button></a>
           <a href="login.php"> <button type="button" class="btn btn-outline-warning">LOG-IN</button></a>
 
+
         </li>
 
 
       </div>
+
+
     </nav>
   </header>

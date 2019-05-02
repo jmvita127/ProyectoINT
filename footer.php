@@ -1,4 +1,7 @@
+<?php
+session_start();
 
+?>
 
     <section class="section1">
     <div class="row">

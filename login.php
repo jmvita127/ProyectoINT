@@ -1,8 +1,13 @@
 
       <?php
-      //agrego el menu con toda su logica
-        include('header.php');
+          session_start();
+          include('header.php');
+
+          if(!empty($_SESSION['email'])){
+              header('location:index.php');
+          }
       ?>
+
 
 
     <div class="contenedor">

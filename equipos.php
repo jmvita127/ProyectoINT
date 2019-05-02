@@ -1,4 +1,5 @@
 <?php
+session_start();
 include('header.php'); ?>
 
 <h2>EQUIPOS</h2>
