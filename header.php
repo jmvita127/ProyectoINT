@@ -50,7 +50,16 @@
         <?php
         if(!empty($_SESSION['email'])){
         ?>
-            <a class="botonreg" href="registro.php"><button type="button" class="btn btn-outline-danger"><?php  echo $_SESSION['email']?></button></a> <a href="exito.php"> <img class="avatar" src= <?php echo $_SESSION['avatar'] ?> alt=""> </a>  <?php
+
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:orange;">Bienvenido, <img class="avatar" src= <?php echo $_SESSION['avatar'] ?> alt=""> <br><?php  echo $_SESSION['email']?></button></a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="cerrarSession.php" style="color:red;">Log out</a>
+          </div>
+        </li>
+
+
+       <?php
         } else {
           ?>
           <li class="boton">

@@ -6,10 +6,23 @@ session_start();
 <?php
 include('header.php');
 ?>
-<h3><img class="avatar2"  src="<?php echo $_SESSION['avatar']; ?>" alt="">Bienvenido <?php echo $_SESSION['email']; ?> <img class="avatar2"  src="<?php echo $_SESSION['avatar']; ?>" alt=""></h3>
 
-<h3><a href="index.php">Ir al home</a> <br> </h3>
-  <h3><a href="cerrarSession.php">Salir</a></h3>
+
+
+<h3 class="bienvenida">Bienvenido,<?php echo " " . $_SESSION['email'];?> <img src="<?php echo $_SESSION['avatar']; ?>" alt="" class="avatar2">
+<br><a href="index.php" style="margin: auto">INICIO</a><br>
+<a href="cerrarSession.php" style="margin: auto">CERRAR SESION</a></h3>
+
+<div class="alert alert-success alert-dismissible fade show" role="alert" style="width:40%; margin: auto;">
+  <strong>El registro se ha completado de forma exitosa! <br>
+          Gracias por confiar en Negocios Informaticos SA.</strong>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+
+
   <?php
   include('footer.php');
   ?>

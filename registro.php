@@ -17,40 +17,41 @@
       $errorAvatar='';
       $email='';
       $sinErrores = true;
+      $minimocaracteres = 3;
 
 
       if ($_POST) {
           $nombre = $_POST['nombre-formulario'];
-          if ($_POST['nombre-formulario']==''){
-           $errorNombre='Por favor, ingrese un nombre!';
+          if ($_POST['nombre-formulario']=='')  {
+           $errorNombre='ERROR - Ingrese un nombre';
            $sinErrores = false;
          }
 
          $apellido = $_POST['apellido-formulario'];
          if ($_POST['apellido-formulario']==''){
-          $errorNombre='Por favor, ingrese un apellido!';
+          $errorApellido='ERROR - Ingrese un apellido';
           $sinErrores = false;
         }
 
           $email= $_POST['mail-formulario'];
           if($_POST['mail-formulario']==''){
-              $errorEmail='Por favor, ingrese mail valido!';
+              $errorEmail='ERROR - Ingrese un mail';
               $sinErrores = false;
           } else if (!filter_var($_POST['mail-formulario'], FILTER_VALIDATE_EMAIL)){
-              $errorEmail = 'Por favor, ingrese mail valido!';
+              $errorEmail = 'ERROR - Ingrese un mail valido';
               $sinErrores = false;
           }
 
           if (empty($_POST['contrasenia-formulario'])){
-              $errorPass='Ingrese contraseña valida!';
+              $errorPass='ERROR - Ingrese una contraseña';
               $sinErrores = false;
           }
 
           if (empty($_POST['confirmar-contrasenia-formulario'])){
-              $errorConfirmarPass='No ingresó contraseña!';
+              $errorConfirmarPass='ERROR - No ingresó contraseña';
               $sinErrores = false;
           }else if(!empty($_POST['contrasenia-formulario']) && $_POST['contrasenia-formulario']!=$_POST['confirmar-contrasenia-formulario']){
-              $errorConfirmarPass='Las contraseñas no coinciden!';
+              $errorConfirmarPass='ERROR - Las contraseñas no coinciden!';
               $sinErrores = false;
           }
 
@@ -89,7 +90,7 @@
           <label class="form-label" for="nombre">Nombre <pre id="errorform">  <?php echo $errorNombre;?></pre></label>
           <input class="form-input" id="nombre" type="text" name="nombre-formulario" placeholder="Ingrese su Nombre..." value="<?php echo $nombre  ?>">
 
-          <label class="form-label" for="apellido">Apellido <pre id="errorform">  <?php echo $errorEmail; ?></pre></label>
+          <label class="form-label" for="apellido">Apellido <pre id="errorform">  <?php echo $errorApellido; ?></pre></label>
           <input class="form-input" id="apellido" type="text" name="apellido-formulario" placeholder="Ingrese su Apellido..." value="<?php echo $apellido  ?>">
 
           <label class="form-label" for="email">Correo Electrónico <pre id="errorform">  <?php echo $errorEmail; ?></pre></label>
