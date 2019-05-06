@@ -18,6 +18,10 @@
       $email='';
       $sinErrores = true;
       $errorMin= '';
+      $pregunta = '';
+      $errorPregunta='';
+      $respuesta = '';
+      $errorRespuesta = '';
 
 
 
@@ -28,11 +32,23 @@
            $sinErrores = false;
          }
 
+         $pregunta = $_POST['pregunta-formulario'];
+         if ($_POST['pregunta-formulario']==0)  {
+          $errorPregunta='ERROR - Elija una pregunta';
+          $sinErrores = false;
+        }
+
          $apellido = $_POST['apellido-formulario'];
          if ($_POST['apellido-formulario']==''){
           $errorApellido='ERROR - Ingrese un apellido';
           $sinErrores = false;
         }
+
+        $respuesta = $_POST['respuesta-formulario'];
+        if ($_POST['respuesta-formulario']==''){
+         $errorRespuesta='ERROR - Ingrese una respuesta';
+         $sinErrores = false;
+       }
 
           $email= $_POST['mail-formulario'];
           if($_POST['mail-formulario']==''){
@@ -63,7 +79,7 @@
           if($sinErrores){
               $avatar='';
               if($_FILES['avatar']["error"]!=UPLOAD_ERR_OK){
-                  $errorAvatar = "Seleccione una avatar por favor";
+                  $errorAvatar = "Seleccione un avatar por favor";
                   $sinErrores = false;
               }
 
@@ -81,7 +97,9 @@
 
               if ($sinErrores) {
                   $pass = password_hash($_POST['contrasenia-formulario'], PASSWORD_DEFAULT);
-                  $usuario = new Usuario($_POST['mail-formulario'], $pass, $avatar);
+                  $preguntaSeguridad = $_POST['pregunta-formulario'];
+                  $respuestaSeguridad = $_POST['respuesta-formulario'];
+                  $usuario = new Usuario($_POST['mail-formulario'], $pass, $avatar, $preguntaSeguridad, $respuestaSeguridad);
                   $usuarioJson = json_encode($usuario);
                   file_put_contents('usuarios.json', $usuarioJson);
                   $_SESSION['email'] = $usuario->getEmail();
@@ -111,6 +129,21 @@
 
           <label class="form-label" for="confirmar_contrasenia">Confirmar Contraseña <pre id="errorform"> <?php echo $errorConfirmarPass?> </pre> </label>
           <input class="form-input" id="confirmar_contrasenia" type="password" name="confirmar-contrasenia-formulario" placeholder="Confirme su Contraseña..." value="">
+
+          <label class="form-label" for="pregunta">Pregunta de Seguridad<pre id="errorform">  <?php echo $errorPregunta;?></pre></label>
+          <select class="form-input" name="pregunta-formulario">
+            <option value="0">Click para elegir pregunta</option>
+            <option value="1">¿Cómo se llamaba su escuela secundaria? </option>
+            <option value="2">¿Cuantas mascotas tuvo en toda su vida? </option>
+            <option value="3">¿A qué lugar le gustaría viajar? </option>
+          </select>
+
+          <!-- <?php
+          //$array = ["Click para elegir pregunta","¿Cómo se llamaba su escuela secundaria?","¿Cuantas mascotas tuvo en toda su vida?","¿A qué lugar le gustaría viajar?"];
+           ?> -->
+
+          <label class="form-label" for="respuesta">Respuesta de Seguridad<pre id="errorform">  <?php echo $errorRespuesta;?></pre></label>
+          <input class="form-input" type="text" name="respuesta-formulario" placeholder="Ingrese una Respuesta..." value="">
 
           <label class="form-label" for="avatar">Avatar:<pre id="errorform"> <?php echo $errorAvatar?> </pre></label>
           <input class="form-input" id="avatar" type="file" name="avatar" value=""><?= $errorAvatar?>

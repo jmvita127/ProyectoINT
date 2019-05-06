@@ -20,7 +20,7 @@
 
         if($email == $dataDecode['email'] && password_verify($pass,$dataDecode['password'])){
 
-          if(isset($_POST['recuerdame'])){
+          if(isset($_POST['recordarme'])){
               setcookie('mail-formulario', $email, time()+60*60*24);
           }
           $_SESSION["email"]=$dataDecode["email"];
@@ -52,7 +52,7 @@
           </div>
 
           <div class="olvide">
-              <a href="#">Olvidé mi contraseña</a>
+              <a href="olvideContrasenia1.php">Olvidé mi contraseña</a>
           </div>
 
           <br>

@@ -4,11 +4,16 @@ class Usuario implements \JsonSerializable {
     private $email;
     private $password;
     private $avatar;
+    private $preguntaSeguridad;
+    private $respuestaSeguridad;
 
-    public function __construct($email, $password, $avatar){
+    public function __construct($email, $password, $avatar, $preguntaSeguridad, $respuestaSeguridad){
         $this->email = $email;
         $this->password = $password;
         $this->avatar = $avatar;
+        $this->preguntaSeguridad = $preguntaSeguridad;
+        $this->respuestaSeguridad = $respuestaSeguridad;
+
     }
 
     public function getEmail(){
@@ -17,6 +22,12 @@ class Usuario implements \JsonSerializable {
     public function getAvatar(){
         return $this->avatar;
     }
+
+    public function setPassword($nuevoPass)
+    {
+        $this->password = $nuevoPass;
+    }
+
 
     public function jsonSerialize()
     {
