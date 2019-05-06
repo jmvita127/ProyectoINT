@@ -17,7 +17,8 @@
       $errorAvatar='';
       $email='';
       $sinErrores = true;
-      $minimocaracteres = 3;
+      $errorMin= '';
+
 
 
       if ($_POST) {
@@ -45,7 +46,11 @@
           if (empty($_POST['contrasenia-formulario'])){
               $errorPass='ERROR - Ingrese una contraseña';
               $sinErrores = false;
-          }
+            } else if (!preg_match("/^[a-zA-Z0-9]{6}/", $_POST['contrasenia-formulario'])){
+                $errorPass='Debe contener al menos 6 carácteres.';
+                $sinErrores=false;
+            }
+
 
           if (empty($_POST['confirmar-contrasenia-formulario'])){
               $errorConfirmarPass='ERROR - No ingresó contraseña';
@@ -57,6 +62,11 @@
 
           if($sinErrores){
               $avatar='';
+              if($_FILES['avatar']["error"]!=UPLOAD_ERR_OK){
+                  $errorAvatar = "Seleccione una avatar por favor";
+                  $sinErrores = false;
+              }
+
               if($_FILES['avatar']["error"]===UPLOAD_ERR_OK){
                   $tipoImagen = $_FILES['avatar']['type'];
                   if( $tipoImagen == 'image/png' || $tipoImagen == 'image/jpg' || $tipoImagen == 'image/jpeg' || $tipoImagen == 'image/gif'){
@@ -88,7 +98,7 @@
           <h2 class="form-title">R<span>egistro</span> </h2>
         </div>
           <label class="form-label" for="nombre">Nombre <pre id="errorform">  <?php echo $errorNombre;?></pre></label>
-          <input class="form-input" id="nombre" type="text" name="nombre-formulario" placeholder="Ingrese su Nombre..." value="<?php echo $nombre  ?>">
+          <input class="form-input" id="nombre" type="text" name="nombre-formulario" placeholder="Ingrese su Nombre..."  minlength="5" value="<?php echo $nombre  ?>">
 
           <label class="form-label" for="apellido">Apellido <pre id="errorform">  <?php echo $errorApellido; ?></pre></label>
           <input class="form-input" id="apellido" type="text" name="apellido-formulario" placeholder="Ingrese su Apellido..." value="<?php echo $apellido  ?>">
@@ -97,12 +107,12 @@
           <input class="form-input" id="email" type="email" name="mail-formulario" placeholder="Ingrese su Correo Electrónico..." value="<?php echo $email  ?>">
 
           <label class="form-label" for="contrasenia">Contraseña <pre id="errorform"> <?php echo $errorPass; ?></pre></label>
-          <input class="form-input" id="contrasenia" type="password" name="contrasenia-formulario" placeholder="Ingrese su Contraseña..." value="">
+          <input class="form-input" id="contrasenia" type="password" name="contrasenia-formulario" placeholder="Ingrese su Contraseña..." value="<?php echo $errorPass ?>">
 
           <label class="form-label" for="confirmar_contrasenia">Confirmar Contraseña <pre id="errorform"> <?php echo $errorConfirmarPass?> </pre> </label>
           <input class="form-input" id="confirmar_contrasenia" type="password" name="confirmar-contrasenia-formulario" placeholder="Confirme su Contraseña..." value="">
 
-          <label class="form-label" for="avatar">Avatar:</label>
+          <label class="form-label" for="avatar">Avatar:<pre id="errorform"> <?php echo $errorAvatar?> </pre></label>
           <input class="form-input" id="avatar" type="file" name="avatar" value=""><?= $errorAvatar?>
 
           <br>

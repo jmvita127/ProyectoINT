@@ -1,17 +1,14 @@
 <?php
 session_start();
-?>
-<link rel="stylesheet" href="estilo/estilo.css">
-<link rel="stylesheet" href="estilo/estiloform.css">
-<?php
+
 include('header.php');
 ?>
 
 
 
 <h3 class="bienvenida">Bienvenido,<?php echo " " . $_SESSION['email'];?> <img src="<?php echo $_SESSION['avatar']; ?>" alt="" class="avatar2">
-<br><a href="index.php" style="margin: auto">INICIO</a><br>
-<a href="cerrarSession.php" style="margin: auto">CERRAR SESION</a></h3>
+<br><a class="perfil" href="index.php" style="margin: auto ">INICIO</a><br>
+<a class="perfil" href="cerrarSession.php" style="margin: auto">CERRAR SESION</a></h3>
 
 <div class="alert alert-success alert-dismissible fade show" role="alert" style="width:40%; margin: auto;">
   <strong>El registro se ha completado de forma exitosa! <br>

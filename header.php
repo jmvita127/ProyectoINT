@@ -54,7 +54,9 @@
         <li class="nav-item dropdown">
           <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:orange;">Bienvenido, <img class="avatar" src= <?php echo $_SESSION['avatar'] ?> alt=""> <br><?php  echo $_SESSION['email']?></button></a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="exito.php" style="color:red;">Perfil</a>
             <a class="dropdown-item" href="cerrarSession.php" style="color:red;">Log out</a>
+
           </div>
         </li>
 

@@ -5,11 +5,28 @@
 
 }
 
-.bienvenida{
+.bienvenida {
+  color: ghostwhite;
   text-align: center;
   font-family: 'Bangers', cursive;
   font-size: 4em;
-  background: linear-gradient(to left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 29%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+  background-image: url("../imagenes/fondoBienvenida2.jpg");
+}
+
+.bienvenida:hover {
+  color: ghostwhite;
+}
+
+.perfil{
+  color: orange;
+}
+
+.pefil:hover {
+  color:orange;
+}
+
+.perfil-avatar {
+  width:50%;
 }
 
 /*estilo exito.php*/

@@ -2,31 +2,35 @@
       <?php
           session_start();
           include('header.php');
+          require_once('clases/Usuario.php');
 
-          if(!empty($_SESSION['email'])){
-              header('location:index.php');
+          if(isset($_SESSION['email'])){
+              header('Location:index.php');
           }
 
-      $errorEmail='';
-      $errorPass='';
-      $email='';
+
+          $datos=file_get_contents("usuarios.json");
+          $dataDecode=json_decode($datos,true);
+          $errorLogin='';
 
       if ($_POST) {
 
-      if($_POST['mail-formulario']==''){
-          $errorEmail='ERROR - Ingrese un mail';
-          $sinErrores = false;
-      } else if (!filter_var($_POST['mail-formulario'], FILTER_VALIDATE_EMAIL)){
-          $errorEmail = 'ERROR - Ingrese un mail valido';
-          $sinErrores = false;
-      }
+        $email = $_POST['mail-formulario'];
+        $pass = $_POST['contrasenia-formulario'];
 
-      if (empty($_POST['contrasenia-formulario'])){
-          $errorPass='ERROR - Ingrese una contraseña';
-          $sinErrores = false;
-      }
-}
+        if($email == $dataDecode['email'] && password_verify($pass,$dataDecode['password'])){
 
+          if(isset($_POST['recuerdame'])){
+              setcookie('mail-formulario', $email, time()+60*60*24);
+          }
+          $_SESSION["email"]=$dataDecode["email"];
+          $_SESSION["avatar"]=$dataDecode["avatar"];
+
+          header("Location:exito.php");
+      }else{
+          $errorLogin='Email y/o contraseña incorrectos!';
+      }
+  }
 
      ?>
 
@@ -36,10 +40,10 @@
           <h2 class "form-title">I<span>ngresar</span></h2>
         </div>
 
-        <label class="form-label" for="email">Correo Electrónico <pre id="errorform">  <?php echo $errorEmail; ?></pre></label>
-        <input class="form-input" id="email" type="email" name="mail-formulario" placeholder="Ingrese su Correo Electrónico..." value="<?php echo $email  ?>">
+        <label class="form-label" for="email">Correo Electrónico <pre id="errorform"><?php echo $errorLogin ?></pre></label>
+        <input class="form-input" id="email" type="email" name="mail-formulario" placeholder="Ingrese su Correo Electrónico..." value="<?php if(isset($_COOKIE['mail-formulario'])){echo $_COOKIE['mail-formulario'];} ?>">
 
-        <label class="form-label" for="contrasenia">Contraseña <pre id="errorform"> <?php echo $errorPass; ?></pre></label>
+        <label class="form-label" for="contrasenia">Contraseña </label>
         <input class="form-input" id="contrasenia" type="password" name="contrasenia-formulario" placeholder="Ingrese su Contraseña..." value="">
 
           <div class="">
