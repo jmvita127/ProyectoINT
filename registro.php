@@ -145,7 +145,7 @@
           </select>
 
           <!-- <?php
-          //$array = ["Click para elegir pregunta","¿Cómo se llamaba su escuela secundaria?","¿Cuantas mascotas tuvo en toda su vida?","¿A qué lugar le gustaría viajar?"];
+          //$array = ["Click aqui para elegir pregunta","¿Cómo se llamaba su escuela secundaria?","¿Cuantas mascotas tuvo en toda su vida?","¿A qué lugar le gustaría viajar?"];
            ?> -->
 
           <label class="form-label" for="respuesta">Respuesta de Seguridad<pre id="errorform">  <?php echo $errorRespuesta;?></pre></label>
