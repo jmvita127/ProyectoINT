@@ -1,6 +1,7 @@
 <?php
 
 class Usuario implements \JsonSerializable {
+
     private $email;
     private $password;
     private $avatar;
@@ -15,6 +16,8 @@ class Usuario implements \JsonSerializable {
         $this->respuestaSeguridad = $respuestaSeguridad;
 
     }
+
+  
 
     public function getEmail(){
         return $this->email;

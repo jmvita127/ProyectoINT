@@ -28,9 +28,12 @@
       if ($_POST) {
           $nombre = $_POST['nombre-formulario'];
           if ($_POST['nombre-formulario']=='')  {
-           $errorNombre='ERROR - Ingrese un nombre';
+           $errorNombre = 'ERROR - Ingrese un nombre';
            $sinErrores = false;
-         }
+         }  else if(!preg_match('/^[A-Za-z]*$/', $_POST['nombre-formulario'])){
+             $errorNombre = 'ERROR - Simbolos o numeros detectados';
+           $sinErrores = false;
+            }
 
          $pregunta = $_POST['pregunta-formulario'];
          if ($_POST['pregunta-formulario']==0)  {
@@ -42,7 +45,10 @@
          if ($_POST['apellido-formulario']==''){
           $errorApellido='ERROR - Ingrese un apellido';
           $sinErrores = false;
-        }
+        }  else if(!preg_match('/^[A-Za-z]*$/', $_POST['apellido-formulario'])){
+          $errorApellido = 'ERROR - Simbolos o numeros detectados';
+          $sinErrores = false;
+           }
 
         $respuesta = $_POST['respuesta-formulario'];
         if ($_POST['respuesta-formulario']==''){
@@ -116,7 +122,7 @@
           <h2 class="form-title">R<span>egistro</span> </h2>
         </div>
           <label class="form-label" for="nombre">Nombre <pre id="errorform">  <?php echo $errorNombre;?></pre></label>
-          <input class="form-input" id="nombre" type="text" name="nombre-formulario" placeholder="Ingrese su Nombre..."  minlength="5" value="<?php echo $nombre  ?>">
+          <input class="form-input" id="nombre" type="text" name="nombre-formulario" placeholder="Ingrese su Nombre..."  minlength="3" value="<?php echo $nombre  ?>">
 
           <label class="form-label" for="apellido">Apellido <pre id="errorform">  <?php echo $errorApellido; ?></pre></label>
           <input class="form-input" id="apellido" type="text" name="apellido-formulario" placeholder="Ingrese su Apellido..." value="<?php echo $apellido  ?>">

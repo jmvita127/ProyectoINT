@@ -28,7 +28,7 @@
 
           header("Location:exito.php");
       }else{
-          $errorLogin='Email y/o contraseña incorrectos!';
+          $errorLogin='Email y/o contraseña incorrectos';
       }
   }
 
@@ -59,7 +59,7 @@
           <input type="submit" class="btn-submit" name="" value="Ingresar">
 
           <div class="noTengo">
-              ¿No tenés usuario? <a href="#">¡Registrate!</a>
+              ¿No tenés usuario? <a href="registro.php">¡Registrate!</a>
           </div>
 
 
