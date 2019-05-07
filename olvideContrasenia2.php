@@ -6,7 +6,7 @@
     if(isset($_SESSION['email'])){
         header('Location:index.php');
     }
-
+    $array = ["Click para elegir pregunta","¿Cómo se llamaba su escuela secundaria?","¿Cuantas mascotas tuvo en toda su vida?","¿A qué lugar le gustaría viajar?"];
     $datos=file_get_contents("usuarios.json");
     $dataDecode=json_decode($datos,true);
     $errorLogin = '';
@@ -29,7 +29,7 @@
     </div>
 
     <label class="form-label" for="email">Pregunta de Seguridad seleccionada:<pre id="errorform"><?php echo $errorLogin ?></pre></label>
-    <div class="form-input"> <?php echo $dataDecode['preguntaSeguridad'] ?>    </div>
+    <div class="form-input"> <?php echo  $array[$dataDecode['preguntaSeguridad']]?>    </div>
 
     <label class="form-label" for="respuestaSeguridad2">Respuesta de Seguridad</label>
     <input class="form-input" id="respuestaSeguridad2" type="text" name="respuesta2-formulario" placeholder="Ingrese su respuesta..." value="">

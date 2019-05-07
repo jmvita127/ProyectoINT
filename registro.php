@@ -138,10 +138,10 @@
 
           <label class="form-label" for="pregunta">Pregunta de Seguridad<pre id="errorform">  <?php echo $errorPregunta;?></pre></label>
           <select class="form-input" name="pregunta-formulario">
-            <option value="0">Click para elegir pregunta</option>
-            <option value="1">¿Cómo se llamaba su escuela secundaria? </option>
-            <option value="2">¿Cuantas mascotas tuvo en toda su vida? </option>
-            <option value="3">¿A qué lugar le gustaría viajar? </option>
+            <option value = 0 >Click para elegir pregunta</option>
+            <option value = 1 >¿Cómo se llamaba su escuela secundaria? </option>
+            <option value = 2 >¿Cuantas mascotas tuvo en toda su vida? </option>
+            <option value = 3 >¿A qué lugar le gustaría viajar? </option>
           </select>
 
           <!-- <?php
