@@ -11,6 +11,7 @@
   font-family: 'Bangers', cursive;
   font-size: 4em;
   background-image: url("../imagenes/fondoBienvenida2.jpg");
+  width:100%;
 }
 
 .bienvenida:hover {
@@ -28,6 +29,11 @@
 .perfil-avatar {
   width:50%;
 }
+
+  #cartel {
+    width:36%;
+  }
+
 
 /*estilo exito.php*/
 
@@ -672,6 +678,16 @@ text-align: center;
 
   @media (max-width:576px) {
 
+    .bienvenida {
+      font-size: 1.5em;
+      margin: auto;
+    }
+
+    #cartel {
+      width: 70%;
+      font-size: 14px;
+    }
+
 
 /* estilo nav */
 
@@ -843,6 +859,10 @@ text-align: center;
 }
 
   @media (min-width:576px) and (max-width:860px) {
+
+    #cartel {
+        width: 68%;
+    }
 
   /* estilo nav */
 

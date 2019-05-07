@@ -41,10 +41,10 @@
         </div>
 
         <label class="form-label" for="email">Correo Electrónico <pre id="errorform"><?php echo $errorLogin ?></pre></label>
-        <input class="form-input" id="email" type="email" name="mail-formulario" placeholder="Ingrese su Correo Electrónico..." value="<?php if(isset($_COOKIE['mail-formulario'])){echo $_COOKIE['mail-formulario'];} ?>">
+        <input class="form-input" id="email" type="email" name="mail-formulario" placeholder="Ingrese su Correo Electrónico..." autofocus="autofocus" value="<?php if(isset($_COOKIE['mail-formulario'])){echo $_COOKIE['mail-formulario'];} ?>">
 
         <label class="form-label" for="contrasenia">Contraseña </label>
-        <input class="form-input" id="contrasenia" type="password" name="contrasenia-formulario" placeholder="Ingrese su Contraseña..." value="">
+        <input class="form-input" id="contrasenia" type="password" name="contrasenia-formulario" placeholder="Ingrese su Contraseña..." autofocus="autofocus" value="">
 
           <div class="">
               <input type="checkbox" name="recordarme" id="recordarme">

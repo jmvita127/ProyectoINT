@@ -14,7 +14,7 @@ if(!isset($_SESSION['email'])){
 <br><a class="perfil" href="index.php" style="margin: auto ">INICIO</a><br>
 <a class="perfil" href="cerrarSession.php" style="margin: auto">CERRAR SESION</a></h3>
 
-<div class="alert alert-success alert-dismissible fade show" role="alert" style="width:40%; margin: auto;">
+<div class="alert alert-success alert-dismissible fade show" id="cartel" role="alert" style=" margin: auto;">
   <strong>El registro se ha completado de forma exitosa! <br>
           Gracias por confiar en Negocios Informaticos SA.</strong>
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">

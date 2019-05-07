@@ -122,19 +122,19 @@
           <h2 class="form-title">R<span>egistro</span> </h2>
         </div>
           <label class="form-label" for="nombre">Nombre <pre id="errorform">  <?php echo $errorNombre;?></pre></label>
-          <input class="form-input" id="nombre" type="text" name="nombre-formulario" placeholder="Ingrese su Nombre..."  minlength="3" value="<?php echo $nombre  ?>">
+          <input class="form-input" id="nombre" type="text" name="nombre-formulario" placeholder="Ingrese su Nombre..." autofocus="autofocus" minlength="3" value="<?php echo $nombre  ?>">
 
           <label class="form-label" for="apellido">Apellido <pre id="errorform">  <?php echo $errorApellido; ?></pre></label>
-          <input class="form-input" id="apellido" type="text" name="apellido-formulario" placeholder="Ingrese su Apellido..." value="<?php echo $apellido  ?>">
+          <input class="form-input" id="apellido" type="text" name="apellido-formulario" placeholder="Ingrese su Apellido..." autofocus="autofocus" value="<?php echo $apellido  ?>">
 
           <label class="form-label" for="email">Correo Electrónico <pre id="errorform">  <?php echo $errorEmail; ?></pre></label>
-          <input class="form-input" id="email" type="email" name="mail-formulario" placeholder="Ingrese su Correo Electrónico..." value="<?php echo $email  ?>">
+          <input class="form-input" id="email" type="email" name="mail-formulario" placeholder="Ingrese su Correo Electrónico..." autofocus="autofocus" value="<?php echo $email  ?>">
 
           <label class="form-label" for="contrasenia">Contraseña <pre id="errorform"> <?php echo $errorPass; ?></pre></label>
-          <input class="form-input" id="contrasenia" type="password" name="contrasenia-formulario" placeholder="Ingrese su Contraseña..." value="<?php echo $errorPass ?>">
+          <input class="form-input" id="contrasenia" type="password" name="contrasenia-formulario" placeholder="Ingrese su Contraseña..." autofocus="autofocus" value="<?php echo $errorPass ?>">
 
           <label class="form-label" for="confirmar_contrasenia">Confirmar Contraseña <pre id="errorform"> <?php echo $errorConfirmarPass?> </pre> </label>
-          <input class="form-input" id="confirmar_contrasenia" type="password" name="confirmar-contrasenia-formulario" placeholder="Confirme su Contraseña..." value="">
+          <input class="form-input" id="confirmar_contrasenia" type="password" name="confirmar-contrasenia-formulario" placeholder="Confirme su Contraseña..." autofocus="autofocus" value="">
 
           <label class="form-label" for="pregunta">Pregunta de Seguridad<pre id="errorform">  <?php echo $errorPregunta;?></pre></label>
           <select class="form-input" name="pregunta-formulario">
