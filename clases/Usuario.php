@@ -1,5 +1,7 @@
 <?php
 
+$esAdmin = false;
+
 class Usuario implements \JsonSerializable {
 
     private $email;
@@ -7,6 +9,7 @@ class Usuario implements \JsonSerializable {
     private $avatar;
     private $preguntaSeguridad;
     private $respuestaSeguridad;
+    private $esAdmin;
 
     public function __construct($email, $password, $avatar, $preguntaSeguridad, $respuestaSeguridad){
         $this->email = $email;
@@ -17,7 +20,7 @@ class Usuario implements \JsonSerializable {
 
     }
 
-  
+
 
     public function getEmail(){
         return $this->email;
