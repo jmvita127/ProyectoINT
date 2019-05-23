@@ -72,6 +72,7 @@ class CreateUsersTable extends Migration
 
         Schema::create('Purchases', function (Blueprint $table) {
             $table->BigIncrements('id');
+            $table->integer('Test');
             // $table->string('user_id');
             $table->timestamps();
         });
@@ -80,7 +81,7 @@ class CreateUsersTable extends Migration
 
         Schema::create('Ticket', function (Blueprint $table) {
             $table->BigIncrements('id');
-            $table->unsignedInteger('ticket_number', 20);
+            $table->unsignedInteger('ticket_number');
             // $table->string('user_id');
             $table->timestamps();
         });
@@ -96,7 +97,7 @@ class CreateUsersTable extends Migration
 
 
         Schema::create('Product_Purchases', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->BigIncrements('id');
             $table->string('price');
             $table->unsignedInteger('quantity');
             // $table->string('purchase_id');
