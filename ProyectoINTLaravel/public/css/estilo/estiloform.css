@@ -1,0 +1,129 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-image: url(/imagenes/fondoform.jpg);
+  background-size:cover;
+}
+
+.contenedor, .form-header  {
+  font-weight: normal;
+  font-family: 'Orbitron';
+  text-align: center;
+  color: #ff851b;
+  padding: 14px, 0px;
+}
+
+
+.formulariogrande {
+  font-weight: normal;
+  font-family: 'Orbitron';
+  text-align: center;
+  color: #ff851b;
+  padding: 14px 0px;
+  font-weight: normal;
+  font-family: 'Orbitron';
+  text-align: center;
+  color: #ff851b;
+  padding: 14px, 0px;
+}
+.contenedor, .form-header, .formulariogrande, .form-title {
+  color: #fff;
+}
+
+.noTengo {
+  padding-top: 20px;
+}
+
+span {
+  color: orange;
+}
+
+.contenedor, .formulariogrande {
+  background: rgba(0, 0, 0, .6);
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+}
+
+.contenedor, .formulariogrande, .form-label  {
+  display: block;
+  color: #ff851b;
+  font-size: 16px;
+  font-family: 'Orbitron';
+  position: relative;
+}
+
+.form-label {
+  padding-top: 10px;
+}
+
+.contenedor, .form, .form-input, .form-textarea {
+background: rgba(0,0,0,.7);
+border: none;
+outline: none;
+border-bottom: 2px solid #ff851b;
+width:100%;
+padding: 12px;
+margin-bottom: 50px;
+border-radius: 2px;
+font-size: 14px;
+color: #FFF;
+font-family: 'Orbitron';
+
+}
+
+.contenedor .form .form-textarea {
+resize: vertical;
+max-height: 150px;
+min-height: 50px;
+}
+
+.contenedor, .form {
+  width: 100%;
+  font-family: 'Orbitron';
+  outline: none;
+  color: #ff851b;
+  font-size: 16px;
+  border: none;
+  color: #FFF;
+  padding: 15px 0px;
+  transition: all .5 ease;
+}
+
+.btn-submit {
+  width: 100%;
+  font-family: 'Orbitron';
+  outline: none;
+  color: orange;
+  font-size: 36px;
+  border: none;
+  padding-top: 15px 0px;
+  cursor: pointer;
+}
+
+.contenedor {
+color: #F29718
+}
+
+.form {
+color: orange;
+}
+
+.btn-submit:hover {
+color: #F29718;
+background-color: rgba(77,86,86,.7);
+}
+
+#errorform {
+  font-size: 22px;
+  color: crimson;
+  margin: 0;
+
+}
