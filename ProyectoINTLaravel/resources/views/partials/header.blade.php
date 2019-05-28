@@ -37,7 +37,7 @@
             </div>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="preguntas" style="color:orange;">¿QUIENES SOMOS? <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="quienesSomos" style="color:orange;">¿QUIENES SOMOS? <span class="sr-only">(current)</span></a>
           </li>
 
         </ul>
@@ -67,7 +67,7 @@
           <li class="boton">
             <button class="btn" type="submit"></button><br>
             <a class="botonreg" href="registro"><button type="button" class="btn btn-outline-danger">REGISTRARSE</button></a>
-            <a href="login.php"> <button type="button" class="btn btn-outline-warning">LOG-IN</button></a>
+            <a href="login"> <button type="button" class="btn btn-outline-warning">LOG-IN</button></a>
 
 
           </li>       <?php } ?>
